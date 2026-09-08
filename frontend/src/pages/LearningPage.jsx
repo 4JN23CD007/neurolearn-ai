@@ -21,7 +21,7 @@ import toast from 'react-hot-toast';
 
 export default function LearningPage() {
   const {
-    originalText, preferences, transformType, sessionId,
+    originalText, preferences, transformType, sessionId, transformedContent,
     setOriginalText, setTransformedContent, resetTransform,
     setSessionId, addNudge, updateSessionStats, setFocusRulerLine, setPref,
   } = useAppStore();
