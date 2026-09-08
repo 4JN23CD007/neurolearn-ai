@@ -1,0 +1,11 @@
+{
+  "name": "neurolearn-ai",
+  "version": "1.0.0",
+  "description": "NeuroLearn AI — Personalized Adaptive Learning System",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix frontend install && npm --prefix backend install",
+    "build": "npm --prefix frontend install && npm --prefix frontend run build && npm --prefix backend install",
+    "start": "node backend/server.js"
+  }
+}
